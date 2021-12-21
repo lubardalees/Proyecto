@@ -1,0 +1,142 @@
+@font-face {
+
+   font-family: Mifuente;
+   src: url(../Fonts/Merriweather-Light.ttf);
+
+
+}
+
+h1 {
+
+   font-family: Mifuente;
+   letter-spacing: 2px;
+   color: rgb(241, 219, 90);
+   font-size: 80px;
+   margin-left: 50px;
+   margin-top: 27.9%;
+   font-weight: 100;
+   margin-bottom: 0px;
+
+}
+
+.texto1 {
+
+   color: floralwhite;
+   font-size: 22px;
+   margin-top: 2px;
+   margin-left: 58px;
+   margin-bottom: 50px;
+
+
+}
+
+
+
+span {
+
+   color: cornsilk;
+
+}
+
+#click {
+
+   font-family: Mifuente;
+   font-weight: lighter;
+   color: rgb(255, 255, 255);
+   background-color: rgb(103, 168, 65);
+   border-radius: 20px;
+   padding: 13px;
+   text-decoration: none;
+   margin-left: 280px;
+   font-size: 20px;
+   padding-left: 16px;
+   padding-right: 16px;
+
+
+}
+
+#click:hover{
+
+   background-color: rgb(134, 201, 57);
+   color: cornsilk;
+
+}
+
+#click:active{
+
+   background-color: rgb(137, 187, 50);
+
+}
+
+body {
+
+   background: url(../media/fondo1.png);
+   background-size: 100%;
+   
+
+}
+
+
+.by{
+
+ font-size: 14px;
+ margin-top: 10px;
+ text-align: right;
+
+}
+
+.intro{
+
+  position: relative;
+  float: left;
+  margin-left: 15px;
+  margin-top: 8px;
+  filter: sepia(20%)saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  
+
+}
+
+/* Diseño de la página 2 (Menu - Studio Ghibli)*/
+
+#pag2{
+
+  background: url(../media/fondo2.jpg);
+  background-size: 100%;
+
+}
+
+ul {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   font-family: Mifuente;
+   font-size: 20px;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: rgb(60, 182, 151);
+  
+}
+
+li {
+   float: left;
+   
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #111;
+   transition: 1s;
+}
+

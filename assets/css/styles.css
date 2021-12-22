@@ -96,16 +96,40 @@ body {
 
 }
 
-/* Diseño de la página 2 (Menu - Studio Ghibli)*/
+/*Nombre*/
+
+#div_nombre{
+
+   border-radius: 20px;
+   height: 250px;
+   max-width:400px;
+   position: relative;
+   top: 350px;
+   right: 10%;
+   left: 35%;
+   transform: translate(-50%,-50%);
+   background: rgba(89, 158, 132, 0.438);
+   text-align: center;
+
+
+}
+
+
+
+
+/* Diseño de la página 3 (Menu - Studio Ghibli)*/
 
 #pag2{
 
   background: url(../media/fondo2.jpg);
   background-size: 100%;
+  margin: 0;
 
 }
 
 ul {
+   display: flex;
+   align-items: stretch;
    position: fixed;
    top: 0;
    width: 100%;
@@ -118,25 +142,100 @@ ul {
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: rgb(60, 182, 151);
+   background-color: rgba(60, 182, 152, 0.836);
+  
   
 }
 
+
 li {
-   float: left;
    
+   float: left;
+   border-right: 2px solid rgba(116, 252, 199, 0.425);
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+li:hover{
+
+   background-color: rgba(45, 211, 161, 0.808);
+   transition: 1s;
+   
+
 }
 
 li a {
+
+   padding-left: 30px;
+   padding-right: 30px;
+   height: 100%;
    display: block;
    color: white;
    text-align: center;
-   padding: 14px 16px;
+   padding: 14px;
    text-decoration: none;
+   padding-top: 20px;
+   padding-bottom: 0;
+   
 }
 
-li a:hover {
-   background-color: #111;
-   transition: 1s;
-}
 
+
+#studiog{
+
+padding-right: 30px;
+padding-left: 30px;
+color: rgb(241, 219, 90);
+padding-top: 10px;
+padding-bottom: 8px;
+
+ }
+
+ #menu{
+
+   background-color: rgba(31, 160, 121, 0.767);
+
+ }
+
+ .Box{
+   
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+
+ }
+
+ .Inner_Box{
+
+border-radius: 20px;
+height: 450px;
+max-width:900px;
+position: relative;
+display: flex;
+top: 350px;
+right: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: rgba(89, 158, 132, 0.438);
+box-shadow: 10px 10px 10px 10px rgba(75, 179, 147, 0.384);
+text-align: center;
+
+ }
+
+
+ h3{
+
+margin-top: 0;
+padding: 20px;   
+font-family: Mifuente;
+
+
+ }
+
+
+
+
+
+
+ /* Diseño de la página 4 (Studio Ghibli)*/

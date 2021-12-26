@@ -29,8 +29,14 @@ fetch(url)
 .then(data => {
     data.forEach(usuario => {
         const p = document.createElement('p') 
+        p.setAttribute('id', usuario.id)
         p.innerHTML = usuario.title
+        p.addEventListener('click', function(){    
+            window.location.href = `./movie.html?id=${usuario.id}` 
+        })
         aplicacion.appendChild(p)
     });
 })
 .catch(err => console.log(err))
+
+

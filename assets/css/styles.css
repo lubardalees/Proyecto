@@ -102,7 +102,7 @@ body {
 color: rgb(241, 219, 90);
 font-family: Mifuente;
 font-weight: 900;
-padding-top: 40px;
+padding-top: 30px;
 padding-left: 5px;
 padding-right: 5px;
 font-size: 24px;
@@ -120,6 +120,8 @@ margin-top: 25px;
 background-color: rgba(255, 255, 255, 0.267);
 border: none;
 border-radius: 10px;
+padding-top: 8px;
+padding-bottom: 8px;
 
 
  }
@@ -127,20 +129,32 @@ border-radius: 10px;
 #enviar{
 
 margin-top: 25px;
-font-size: 15px;
+font-size: 18px;
 font-family: Mifuente;
 font-weight: 900;
-border-radius: 10px;
+border-radius: 17px;
 border-color: rgb(255, 255, 255);
-border-style: solid;
-padding: 5px;
-padding-right: 10px;
-padding-left: 10px;
-background-color: rgba(221, 255, 158, 0.452);
-color: rgb(241, 219, 90);
-cursor: ;
+border-style: none;
+padding: 8px;
+padding-right: 15px;
+padding-left: 15px;
+background-color: rgba(241, 218, 90, 0.74);
+color: rgb(255, 255, 255);
+cursor: pointer;
 
+}
 
+#enviar:hover{
+
+   background-color: rgba(103, 189, 156, 0.692);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+
+}
+
+#enviar:active{
+
+   background-color: rgba(241, 218, 90, 0.74);
 
 }
 
@@ -155,7 +169,7 @@ cursor: ;
    right: 10%;
    left: 35%;
    transform: translate(-50%,-50%);
-   background: rgba(92, 167, 114, 0.548);
+   background: rgba(84, 143, 107, 0.719);
    text-align: center;
 
 
@@ -165,6 +179,39 @@ cursor: ;
 
 
 /* Diseño de la página 3 (Menu - Studio Ghibli)*/
+
+
+#boton_1{
+
+   margin-top: 25px;
+   font-size: 20px;
+   font-family: Mifuente;
+   font-weight: 900;
+   border-radius: 17px;
+   border-color: rgb(255, 255, 255);
+   border-style: none;
+   padding: 10px;
+   padding-right: 17px;
+   padding-left: 17px;
+   background-color: rgba(241, 218, 90, 0.74);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   text-decoration: none;
+
+
+}
+
+#boton_1:hover{
+
+    background-color: rgba(126, 221, 197, 0.644);
+
+}
+
+#boton_1:active{
+
+   background-color: rgba(241, 218, 90, 0.74) ;
+
+}
 
 #pag2{
 
@@ -295,3 +342,25 @@ color: rgb(243, 224, 114);
 
 
  /* Diseño de la página 4 (Studio Ghibli)*/
+
+.container{
+
+display: contents;
+text-align: justify;
+background-color: rgb(142, 180, 142);
+
+ 
+}
+
+ p{
+
+   font-family: Mifuente;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: justify;
+   
+
+
+
+ }

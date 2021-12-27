@@ -343,24 +343,56 @@ color: rgb(243, 224, 114);
 
  /* Diseño de la página 4 (Studio Ghibli)*/
 
-.container{
-   
-   display: grid;
-   grid-template-columns: repeat(7, 1fr);
-   width: 900px;
-   margin: 0 auto ;
-   color: #e9d83e;
+ h4{
+
+  position:relative;
+  margin-right: 50%;
+  font-family: Mifuente;
+  font-size: 33px;
+  color: rgb(243, 224, 114) ;
+  font-weight: 900;
+  margin-bottom: 6px;
+  margin-top: 25px;
+
+ }
+
+ h5{
+
+   position:relative;
+   margin-right: 50%;
+   font-family: Mifuente;
+   font-size: 22px;
+   margin-top: 0;
+   margin-bottom: 15px;
+   color: rgb(255, 255, 255);
+   font-weight: 900;
    
 
- 
-}
+ }
+
+ h6{
+
+   position: relative;
+   margin-right: 50%;
+   font-family: Mifuente;
+   font-size: 17px;
+   margin-left: 16px;
+   margin-top: 0px;
+   margin-bottom: 0;
+   color: rgb(243, 224, 114);
+   font-weight: 900;
+   text-align: justify;
+   
+
+ }
+
 
  p{
    
    font-weight: 900;
    font-size: 15px;
    font-family: Mifuente;
-   padding: 10px;
+   padding-top: 35px;
    padding-left: 20px;
    padding-right: 20px;
    text-align: center;
@@ -368,7 +400,8 @@ color: rgb(243, 224, 114);
    border-radius: 19px;
    margin: 5px;
    cursor: pointer;
-   padding-top: 30px;
+   
+   
    
  }
 
@@ -378,3 +411,49 @@ color: rgb(243, 224, 114);
    background-color: rgba(199, 189, 46, 0.582);
 
  }
+
+.container{
+   
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   width: 900px;
+   margin: 0 auto ;
+   color: #e9d83e;
+   
+   
+   
+
+ 
+}
+
+.container-details{
+   
+   
+   
+   display: block;
+   
+ 
+
+}
+
+.container-details p{
+
+background: none;
+
+
+
+}
+
+img{
+
+
+position: relative;
+width: 28%;
+margin-left: 50%;
+margin-top: 0px;
+margin-bottom: 0;
+border-radius: 15px;
+
+
+
+}

@@ -252,6 +252,7 @@ li {
 
 li:hover{
 
+   
    background-color: rgba(45, 211, 161, 0.808);
    transition: 1s;
    
@@ -273,6 +274,12 @@ li a {
    
 }
 
+li a:hover{
+
+   color: white;
+
+}
+
 
 
 #studiog{
@@ -291,9 +298,27 @@ padding-bottom: 8px;
 
  }
 
+ #contenido_api{
+
+display: grid;
+text-align: center;
+
+
+
+ }
+
+ .info{
+
+ display: grid;  
+ 
+
+
+
+ }
+
  .Box{
    
-   
+   display: grid;
    background-size: cover;
    background-repeat: no-repeat;
   
@@ -302,6 +327,8 @@ padding-bottom: 8px;
 
  .Inner_Box{
 
+padding-left: 5px;
+padding-right: 0;
 border-radius: 20px;
 height: 450px;
 max-width:900px;
@@ -311,7 +338,7 @@ top: 350px;
 right: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
-background: rgba(80, 139, 115, 0.685);
+background: rgba(76, 121, 103, 0.685);
 box-shadow: 9px 9px 9px rgba(75, 179, 147, 0.384);
 text-align: center;
 
@@ -343,27 +370,38 @@ color: rgb(243, 224, 114);
 
  /* Diseño de la página 4 (Studio Ghibli)*/
 
+
+
+
  h4{
 
-  position:relative;
-  margin-right: 50%;
+  height: 0.1rem; 
+  padding-top: 45px;
+  padding-bottom: 0;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
   font-family: Mifuente;
-  font-size: 33px;
+  font-size: 30px;
   color: rgb(243, 224, 114) ;
   font-weight: 900;
-  margin-bottom: 6px;
-  margin-top: 25px;
+  
 
  }
 
  h5{
 
-   position:relative;
-   margin-right: 50%;
+   
+   width: 450px;
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 50px;
+   height: 10px;
    font-family: Mifuente;
    font-size: 22px;
-   margin-top: 0;
-   margin-bottom: 15px;
    color: rgb(255, 255, 255);
    font-weight: 900;
    
@@ -372,12 +410,12 @@ color: rgb(243, 224, 114);
 
  h6{
 
-   position: relative;
-   margin-right: 50%;
+   width: 100%;
    font-family: Mifuente;
    font-size: 17px;
-   margin-left: 16px;
-   margin-top: 0px;
+   padding: 0;
+   margin-left: 37px;
+   margin-top: 0;
    margin-bottom: 0;
    color: rgb(243, 224, 114);
    font-weight: 900;
@@ -396,7 +434,7 @@ color: rgb(243, 224, 114);
    padding-left: 20px;
    padding-right: 20px;
    text-align: center;
-   background-color: rgba(26, 31, 29, 0.507);
+   background-color: rgba(33, 53, 47, 0.493);
    border-radius: 19px;
    margin: 5px;
    cursor: pointer;
@@ -446,14 +484,64 @@ background: none;
 
 img{
 
-
-position: relative;
+display: grid;
+position: absolute;
 width: 28%;
-margin-left: 50%;
-margin-top: 0px;
+margin-left: 64%;
+margin-top: 35px;
 margin-bottom: 0;
 border-radius: 15px;
 
 
 
 }
+
+
+
+
+/* Página de la playlist*/
+
+.playlist{
+
+   
+border-radius: 15px;
+margin-top: 19px;
+margin-left: 28px;
+
+}
+
+
+.fb-comments{
+
+   border-radius: 15px;
+   margin-top: 30px;
+   margin-left: 45px;
+   
+}
+.Comments{
+   
+   display: grid;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+
+ }
+
+ .Comments_Box{
+
+padding-left: 5px;
+padding-right: 0;
+border-radius: 20px;
+height: 450px;
+max-width:900px;
+position: relative;
+display: flex;
+top: 350px;
+right: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: rgba(159, 226, 204, 0.699);
+box-shadow: 9px 9px 9px rgba(128, 185, 169, 0.384);
+text-align: center;
+
+ }

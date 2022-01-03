@@ -505,8 +505,8 @@ border-radius: 15px;
 
    
 border-radius: 15px;
-margin-top: 19px;
-margin-left: 28px;
+margin-top: 13px;
+margin-left: 24px;
 
 }
 
@@ -541,7 +541,7 @@ right: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 background: rgba(159, 226, 204, 0.699);
-box-shadow: 9px 9px 9px rgba(128, 185, 169, 0.384);
+box-shadow: 9px 9px 9px rgba(109, 202, 176, 0.384);
 text-align: center;
 
  }

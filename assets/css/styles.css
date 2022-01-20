@@ -8,6 +8,7 @@
 
 h1 {
 
+   display: block;
    font-family: Mifuente;
    letter-spacing: 2px;
    color: rgb(241, 219, 90);
@@ -222,6 +223,7 @@ cursor: pointer;
 }
 
 ul {
+   z-index: 2;
    display: flex;
    align-items: stretch;
    position: fixed;
@@ -236,7 +238,7 @@ ul {
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: rgba(60, 182, 152, 0.836);
+   background-color: rgba(60, 182, 152, 0.863);
   
   
 }
@@ -327,7 +329,7 @@ text-align: center;
 
  .Inner_Box{
 
-padding-left: 5px;
+padding-left: 0px;
 padding-right: 0;
 border-radius: 25px;
 height: 450px;
@@ -531,38 +533,33 @@ font-weight: 400;
 }
 
 
+
+/*Comentarios*/
+
+
+.Comments{
+
+align-content: center;
+
+}
+
 .fb-comments{
 
-z-index: 2;
-position: absolute;
-margin-top: 170px;
-margin-left: 2px;
-
+   border-radius: 15px;
+   margin-top: 170px;
+   background-color: rgba(255, 255, 255, 0.856);
    
 }
-.Comments{
-   
-   display: grid;
-   background-size: cover;
-   background-repeat: no-repeat;
-  
 
- }
+
+
+/* Fondo negro transparente - Comentarios*/
 
  .Comments_Box{
 
    
-   padding-left: 5px;
-   padding-right: 0;
    border-radius: 25px;
-   height: 450px;
    max-width:900px;
-   position: relative;
-   display: flex;
-   top: 350px;
-   right: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
    background: rgba(21, 22, 22, 0.644);
    text-align: center;
    

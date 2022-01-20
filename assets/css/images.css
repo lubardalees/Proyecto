@@ -1,0 +1,106 @@
+@font-face {
+
+    font-family: Mifuente;
+    src: url(../Fonts/Merriweather-Light.ttf);
+ 
+ 
+ }
+
+ #pag2{
+
+    background: url(../media/fondo2.jpg);
+    background-size: 100%;
+    margin: 0;
+  
+  }
+
+ span {
+
+    color: cornsilk;
+ 
+ }
+ 
+ ul {
+    z-index: 2;
+    display: flex;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Mifuente;
+    font-size: 20px;
+ }
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(60, 182, 152, 0.863);
+   
+   
+ }
+ 
+ 
+ li {
+    
+    float: left;
+    border-right: 2px solid rgba(116, 252, 199, 0.425);
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+ 
+ li:hover{
+ 
+    
+    background-color: rgba(45, 211, 161, 0.808);
+    transition: 1s;
+    
+ 
+ }
+ 
+ li a {
+ 
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 0;
+    
+ }
+ 
+ li a:hover{
+ 
+    color: white;
+ 
+ }
+ 
+ 
+ 
+ #studiog{
+ 
+ padding-right: 30px;
+ padding-left: 30px;
+ color: rgb(241, 219, 90);
+ padding-top: 10px;
+ padding-bottom: 8px;
+ 
+  }
+ 
+  #menu{
+ 
+    background-color: rgba(31, 160, 121, 0.767);
+ 
+  }
+ 
+
+  .w-100 {
+    width: 100%!important;
+    height: 649px;
+}
+ 

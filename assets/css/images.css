@@ -101,6 +101,8 @@
 
   .w-100 {
     width: 100%!important;
-    height: 649px;
+    max-height: 100%;
 }
+
+
  
